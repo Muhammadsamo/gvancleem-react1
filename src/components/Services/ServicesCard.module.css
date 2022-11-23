@@ -1,0 +1,23 @@
+.services {
+  display: flex;
+
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.servicesCard {
+  display: flex;
+  align-items: center;
+  flex-basis: 45%;
+}
+
+.servicesImg {
+  width: 30%;
+  height: 100%;
+}
+
+.servicesText {
+  width: 65%;
+  height: 100%;
+}

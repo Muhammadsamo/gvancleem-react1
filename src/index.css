@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif !important;
+  font-size: 100% !important;
+}
+
+.welcome {
+  width: 100vw;
+  height: 621px;
+  background-image: url("./assets/welcome.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeHeading {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #fdfdfd;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.welcomeHeading2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 61px;
+  color: #fdfdfd;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+  font-family: "Noto Sans", sans-serif;
+  background: #e4d3c3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  min-height: 44px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #1c261c;
+  border: none;
+  padding: 8px;
+}
+
+.sectionHeading {
+  font-family: "Noto Serif";
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 82px;
+  color: #1c261c;
+  text-align: center;
+}
+
+.products-section p,
+.services > p {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #1c261c;
+  max-width: 899px;
+  margin: 0 auto;
+}
+
+.services > h2 {
+  font-family: "Noto Serif";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #1c261c;
+}

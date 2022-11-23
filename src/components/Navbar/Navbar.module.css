@@ -1,0 +1,13 @@
+.mainNav {
+  width: 45%;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navListItem a {
+  color: #1c261c;
+}
